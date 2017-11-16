@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+    background-color: #DCEACA;
+}
+
+.container {
+    background-color: white;
+    padding: 50px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	-moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+}
+
+.h3 {	
+	font-color: #150F10;
+}
+
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+}
+
+a {
+	color: #150F10;
+}
+
+a:hover{
+	color: #946A4B;
+}
+
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
