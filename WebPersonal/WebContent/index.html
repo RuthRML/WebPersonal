@@ -15,10 +15,10 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4">
-				<img src="images/perfil.png" class="img-rounded" style="width: 420px; height: 300px; margin-top: 20px; margin-left: -30px; margin-bottom: -70px; opacity: 0.9;"/>
+			<div class="col-md-4">
+				<img src="images/perfil.png" class="img-rounded" style="width: 100%; height: 100%;"/>
 			</div>
-			<div class="col-lg-8" style="margin-top: 50px;">
+			<div class="col-md-7">
 				<h3>Ruth Rodríguez-Manzaneque López</h3>
 
 				<p style="text-align:justify;">Nací en Alcázar de San Juan (Castilla-La Mancha, España) en 1996 y actualmente vivo en Ciudad Real.
@@ -27,22 +27,22 @@
 		</div>
 		<div class="row">
 
-			<div class="col-lg-12">
+			<div class="col-md-12">
 
-
-
-			    <ul class="nav nav-tabs" style="margin-top: 20px;">
-			            <li class="active"><a id="estudioslink" href="#estudios" style="font-size: 20px;"><span class="glyphicon glyphicon-book" aria-hidden="true"> Estudios</span>
+			    <ul class="nav nav-tabs nav-justified" id="myTabs">
+			            <li class="active"><a id="estudioslink" href="#estudios" style="font-size: 20px;"><span class="glyphicon glyphicon-book" aria-hidden="true"> Formación</span>
+			            </a></li>
+			            <li><a href="#conocimientos" style="font-size: 20px;"><span class="glyphicon glyphicon-tasks" aria-hidden="true"> Conocimientos</span>
 			            </a></li>
 			            <li><a href="#experiencia" style="font-size: 20px;"><span class="glyphicon glyphicon-road" aria-hidden="true"> Experiencia</span>
 			            </a></li>
-			            <li><a href="#objetivos" style="font-size: 20px;"><span class="glyphicon glyphicon-flag" aria-hidden="true"> Objetivos</span>
+			            <li><a href="#portfolio" style="font-size: 20px;"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"> Portfolio</span>
 			            </a></li>
 			    </ul>
 
-			      <div class="tab-content">
-			        <div id="estudios" class="tab-pane fade in active">
-			          <h3>Estudios Oficiales</h3>
+			      <div id="myTabContent" class="tab-content">
+			        <div id="estudios" class="tab-pane fade active in" aria-labelledby="estudios-tab" role="tabpanel">
+			          <h3>Formación Oficial</h3>
 			          <h5>2014 - Actualidad</h5>
 			          <p>Grado en Ingeniería Informática en la Escuela Superior de Informática (UCLM, Ciudad Real)</p>
 			          <h5>2012 - 2014</h5>
@@ -50,58 +50,15 @@
 			          <h5>2008 - 2012</h5>
 			          <p>ESO. IES Miguel de Cervantes Saavedra (Alcázar de San Juan, Ciudad Real)</p>
 
-			          <h3>Certificaciones Oficiales</h3>
-			          <h5>2014</h5>
-			          <p>Cambridge English: Preliminary (PET) - B1 Nivel Europeo</p>
-
-			          <h3>Cursos Autoaprendizaje</h3>
-			          <h5>2017 - Actualidad</h5>
+			          <h3>Formación complementaria</h3> 
+			          <p>Cambridge English: Preliminary (PET) - B1 Nivel Europeo (2014)</p>
 			          <p>Learn 3D Modelling - The Complete Blender Creator Course (UDEMY Online)</p>
 
-			          <h3>Conocimientos</h3>
-			          <!-- Skill Bars -->
-				            <div class="progress skill-bar ">
-				                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">Java <i class="val">80%</i></span>
-				                </div>
-				            </div>
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">C#<i class="val">50%</i></span>
-				                </div>
-				            </div>
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">Python<i class="val">50%</i></span>
-				                </div>
-				            </div>
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
-				                    <span class="skill">HTML<i class="val">60%</i></span>
-				                </div>
-				            </div>
-
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">CSS<i class="val">50%</i></span>
-				                </div>
-				            </div>
-
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">SQL<i class="val">60%</i></span>
-				                </div>
-				            </div>
-
-				            <div class="progress skill-bar">
-				                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-				                    <span class="skill">Photoshop<i class="val">60%</i></span>
-				                </div>
-				            </div>
+			       
 
 
 			        </div>
-			        <div id="experiencia" class="tab-pane fade">
+			        <div id="experiencia" class="tab-pane fade" aria-labelledby="experiencia-tab" role="tabpanel">
 			          <h3>Experiencia Personal</h3>
 			           <h5>Becario en Centro de Tecnologías y Contenidos Digitales</h5>
 			           <p>6 meses (2017). Experiencia con LaTeX, HTML, Python, Adobe Premiere Pro.</p>
@@ -110,31 +67,82 @@
 			           <p>5 meses (2017). Experiencia con HTML y CSS.</p>
 
 			        </div>
-			        <div id="objetivos" class="tab-pane fade">
-			          <h3>This is tab 3</h3>
+			        
+			        <div role="tabpanel" id="conocimientos" class="tab-pane fade" aria-labelledby="conocimientos-tab">
+				          
+	   					<h3>Conocimientos</h3>
+				          <!-- Skill Bars -->
+					            <div class="progress skill-bar ">
+					                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">Java <i class="val">80%</i></span>
+					                </div>
+					            </div>
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">C#<i class="val">50%</i></span>
+					                </div>
+					            </div>
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">Python<i class="val">50%</i></span>
+					                </div>
+					            </div>
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
+					                    <span class="skill">HTML<i class="val">60%</i></span>
+					                </div>
+					            </div>
+	
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">CSS<i class="val">50%</i></span>
+					                </div>
+					            </div>
+	
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">SQL<i class="val">60%</i></span>
+					                </div>
+					            </div>
+	
+					            <div class="progress skill-bar">
+					                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+					                    <span class="skill">Photoshop<i class="val">60%</i></span>
+					                </div>
+					            </div>
+			        	</div>
+   			        	<div role="tabpanel" id="portfolio" class="tab-pane fade" aria-labelledby="portfolio-tab">
+			          		<h3>This is tab 3</h3>
+			        	</div>
+			        
 			        </div>
+
 			      </div>
 
-   			</div>
+ 		</div>
+   			
+   		<div class="row" id="footer" style="margin-top: 50px;">
+   			<div class="col-md-12">
+				<p>Esto es el footer.</p>
+			</div>	
+		</div>
 
-		</div>
-		
-		<div class="row" id="footer" style="margin-top: 50px;">
-				<p>Esto es el footer.</p>		
-		</div>
+
 	</div>
+		
 
-	<script src="js/bootstrap.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-	<script type="text/javascript">
+<!-- 	<script>
 		$(document).ready(function(){
 		    $(".nav-tabs a").click(function(){
 		        $(this).tab('show');
 		    });
 		});
-	</script>
+	</script> -->
 
 	<script>
 	 $(document).ready(function() {
@@ -145,6 +153,19 @@
 	        )
 	    });
 	</script>
-
+	
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	
+	            $('#myTabs a').click(function (e) {
+	                e.preventDefault()
+	                $(this).tab('show')
+	            })
+	
+	            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+	                e.relatedTarget // previous tab
+	            });
+	        });
+	</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #DCEACA;
+    background-color: #BBCDD6;
 }
 
 .container {
@@ -39,21 +39,9 @@ body {
 }
 
 a {
-	color: #150F10;
+	color: #332222;
 }
 
 a:hover{
-	color: #946A4B;
-}
-
-
-.nav-tabs, .nav-pills {
-    text-align:center;
-}
-
-.nav-tabs > li, .nav-pills > li {
-    float:none;
-    display:inline-block;
-    *display:inline; /* ie7 fix */
-     zoom:1; /* hasLayout ie7 trigger */
+	color: #493131;
 }
