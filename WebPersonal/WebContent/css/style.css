@@ -45,3 +45,28 @@ a {
 a:hover{
 	color: #493131;
 }
+
+.subtitulo {
+	font-family: Tahoma, serif;
+	font-size: 28px;
+	background-color: #DCE8EE;
+	text-align: center;
+	padding: 5px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	-moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	margin: 10px;
+}
+
+.punto{
+	font-size: 16px;
+	font-family: Tahoma, serif;
+}
+
+.texto{
+	text-align: justify;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 20px;
+}
+
