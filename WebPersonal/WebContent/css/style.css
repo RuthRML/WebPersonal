@@ -36,6 +36,7 @@ body {
 .progress-bar {
   text-align: left;
   transition-duration: 3s;
+  background-color: #84ABBF;
 }
 
 a {
