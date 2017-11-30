@@ -12,8 +12,23 @@ body {
 	box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
 }
 
-.h3 {	
-	font-color: #150F10;
+
+.imgperfil{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%; 
+    height: 60%;
+}
+
+.titulopagina{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	padding: 10px;
+	text-align: center;
+	-webkit-text-fill-color: white;
+  	-webkit-text-stroke-color: black;
+  	-webkit-text-stroke-width: 1px;
 }
 
 .progress {
@@ -21,7 +36,7 @@ body {
 
 }
 .progress .skill {
-  font: normal 12px "Open Sans Web";
+  font: normal 12px "Open Sans";
   line-height: 35px;
   padding: 0;
   margin: 0 0 0 20px;
@@ -41,14 +56,16 @@ body {
 
 a {
 	color: #332222;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a:hover{
 	color: #493131;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .subtitulo {
-	font-family: Tahoma, serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
 	background-color: #DCE8EE;
 	text-align: center;
@@ -61,7 +78,7 @@ a:hover{
 
 .punto{
 	font-size: 16px;
-	font-family: Tahoma, serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .texto{
@@ -69,5 +86,6 @@ a:hover{
 	padding-left: 80px;
 	padding-right: 80px;
 	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
 }
 
